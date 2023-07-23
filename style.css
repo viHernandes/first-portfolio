@@ -1,0 +1,75 @@
+*{
+  
+    text-align: center;
+
+}
+body{
+
+    background:linear-gradient(100deg,#30096B,black);
+}   
+
+
+.top-container>h1{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.imagemVictor{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+h2{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+.intro{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+/* footer */
+.footer{
+    padding-top:60px;
+    text-align: center;
+    margin: 10px 30px;
+    display: block;
+}
+.footer>a{
+
+    color: white;
+}
+
+
+.contato>a{
+position: relative;
+background-color: cornflowerblue;
+border: 2px solid white;
+text-align: center;
+top:20px;
+color: white;
+
+}
+
+@media(max-width:600px){
+    .imagemVictor{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
